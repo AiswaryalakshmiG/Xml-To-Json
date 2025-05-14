@@ -13,8 +13,7 @@ import org.json.XML;
 public class XmlToJson {
 	public static void main(String[] args) {
 		File xmlFile = new File("C:\\Users\\DT-BSIT-005\\eclipse-workspace\\XmlToJson\\src\\com\\example\\xmlFile.xml");
-		File jsonFile = new File(
-				"C:\\Users\\DT-BSIT-005\\eclipse-workspace\\XmlToJson\\src\\com\\example\\jsonFile.json");
+		File jsonFile = new File("C:\\Users\\DT-BSIT-005\\eclipse-workspace\\XmlToJson\\src\\com\\example\\jsonFile.json");
 
 		boolean present = xmlFile.exists();
 		boolean jsonPresent = jsonFile.exists();
